@@ -4,11 +4,11 @@ The OpenSpace Organizer is a program designed to help you efficiently organize p
 
 ## Table of Contents
 
-- [Installation]
-- [Usage]
-- [File Structure]
-- [Contributing]
-- [License]
+- [Installation](#installation)
+- [Usage](#usage)
+- [File Structure](#file-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Installation
 
@@ -17,3 +17,5 @@ The OpenSpace Organizer is a program designed to help you efficiently organize p
    ```bash
    git clone https://github.com/yourusername/openspace-organizer.git
    cd openspace-organizer
+
+## Usage
