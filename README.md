@@ -4,13 +4,13 @@ The OpenSpace Organizer is a program designed to help you efficiently organize p
 
 ## Table of Contents
 
-- [Installation](#installation)
+- [Prerequisites ](#prerequisites)
 - [Usage](#usage)
 - [File Structure](#file-structure)
 - [Contributing](#contributing)
 
 
-## Installation
+## Prerequisites
 #What you need to run the program
 
 1. Clone the repository:
@@ -25,6 +25,10 @@ The OpenSpace Organizer is a program designed to help you efficiently organize p
    pip install pandas
    pip install openpyxl
    ```
+
+3. Update colleagues.xlsx Excel file with name of your colleagues
+
+
 
 
 ## Usage
@@ -68,20 +72,3 @@ Feel free to contribute to the project by opening issues or submitting pull requ
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Usage
