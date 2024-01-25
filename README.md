@@ -29,6 +29,9 @@ The OpenSpace Organizer is a program designed to help you efficiently organize p
 3. Update colleagues.xlsx Excel file with name of your colleagues
 
 
+4. If you are going to configure setup with Json file than you also need to update ```config.json``` file with your room setup
+
+
 
 
 ## Usage
