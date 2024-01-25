@@ -47,15 +47,15 @@ You have 2 options to customize your setup (the number of tables and seats): man
 Once the setup is configured, the program will organize the open space by assigning people to seats at tables. If there are more people than tables, you have the option to add more tables.
 
 3. Display and Store Results
-The organized open space will be displayed, showing the seating arrangement and additional information. The results will also be stored in an Excel file named "new.xlsx."
+The organized open space will be displayed, showing the seating arrangement and additional information. The results will also be stored in an Excel file named ```new.xlsx```
 
 
 ## File Structure
 
-openspace.py: Contains the OpenSpace class responsible for organizing people in the open space.
-table.py: Defines the Table and Seat classes used to creating tables and seats instances.
-utils.py: Contains functions for loading JSON configurations and reading Excel files.
-main.py: The main script to run the OpenSpace Organizer.
+```openspace.py``` Contains the OpenSpace class responsible for organizing people in the open space.
+```table.py``` Defines the Table and Seat classes used to creating tables and seats instances.
+```utils.py``` Contains functions for loading JSON configurations and reading Excel files.
+```main.py``` The main script to run the OpenSpace Organizer.
 
 
 ## Contributing
