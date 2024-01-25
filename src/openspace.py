@@ -59,7 +59,7 @@ class OpenSpace:
     def store(self, filename: str):
 
         """ Store the seating arrangement and additional information in an Excel file. """
-        
+
         data = {'Table': [], 'Seat': [], 'Occupant': []}
 
         for i, table in enumerate(self.tables, start=1):

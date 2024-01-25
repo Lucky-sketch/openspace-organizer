@@ -1,11 +1,11 @@
 import sys
-sys.path.append('/Users/markshevchenkopu/BXL-Bouman-7/openspace-organizer/src')
+sys.path.append('src/')
 from openspace import OpenSpace
 from utils import load_json, xlsx_to_list
 
 if __name__ == "__main__":
     # Read data from an Excel file
-    path_to_the_file_with_colleagues = "/Users/markshevchenkopu/BXL-Bouman-7/openspace-organizer/colleagues.xlsx"
+    path_to_the_file_with_colleagues = "colleagues.xlsx"
     mylist = xlsx_to_list(path_to_the_file_with_colleagues)
 
     # Customize the setup
