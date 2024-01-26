@@ -50,8 +50,11 @@ You have 2 options to customize your setup (the number of tables and seats): man
 2. Organize the Open Space
 Once the setup is configured, the program will organize the open space by assigning people to seats at tables. If there are more people than tables, you have the option to add more tables.
 
-3. Display and Store Results
-The organized open space will be displayed, showing the seating arrangement and additional information. The results will also be stored in an Excel file named ```new.xlsx```
+3. Display Results
+The organized open space will be displayed, showing the seating arrangement and additional information.
+
+4. Store Results
+The results will also be stored in an Excel file named which will be called ```new.xlsx``` .
 
 
 ## File Structure
