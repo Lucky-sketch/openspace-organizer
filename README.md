@@ -100,7 +100,7 @@ This is the algorithm to assign people on the tables equally, basically it just 
                 print(f"No free spots available for {name}.")
 
             table_index += 1
-            ```
+   ```
 
 
 ## Good luck with using this program and enjoy organising your space
