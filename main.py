@@ -41,4 +41,6 @@ if __name__ == "__main__":
     open_space.display()
 
     # Store the results in a "new.xlsx" Excel file
-    open_space.store("new.xlsx")
+    choice3 = input("Do you want to store your open-space inforamtion in the excel file? (Y/N): ").upper()
+    if choice3 == "Y":
+        open_space.store("new.xlsx")
