@@ -8,6 +8,7 @@ The OpenSpace Organizer is a program designed to help you efficiently organize p
 - [Usage](#usage)
 - [File Structure](#file-structure)
 - [Contributing](#contributing)
+- [Interesting to know](#interesting_to_know)
 
 
 ## Prerequisites
@@ -64,6 +65,42 @@ The organized open space will be displayed, showing the seating arrangement and 
 ## Contributing
 
 Feel free to contribute to the project by opening issues or submitting pull requests.
+
+
+
+## Interesting to know
+
+This is the algorithm to assign people on the tables equally, basically it just calculates whether or not people can be divided evenly among all the tables, with this line ```remaining_people = len(names) % self.number_of_tables``` because when we have let's say 20 people and 10 tables then 20 % 10 = 0, so all the tables will have the same number of people. Program assigns people one by one and to make it this line that go through all the tables is applied: ```current_table = self.tables[table_index % self.number_of_tables]```. If there is such a number of people that it is impossible to distribute them equally extra people will be assigned to first tables due to this condition ```if table_index < remaining_people:
+                                                     current_table = self.tables[table_index]
+                                               ```
+
+   ```
+    def organize(self, names: List[str]):
+
+        """ Organize people into seats at tables."""
+
+        random.shuffle(names)  # Shuffle the list of names for randomness
+        
+        # Calculate the number of people to be assigned to each table
+        remaining_people = len(names) % self.number_of_tables
+
+        table_index = 0
+        for name in names:
+            # Determine the current table to assign the person to
+            if table_index < remaining_people:
+                current_table = self.tables[table_index]
+            else:
+                current_table = self.tables[table_index % self.number_of_tables]
+
+            # Assign the person to a seat if available; otherwise, add to the not_assigned list
+            if current_table.has_free_spot():
+                current_table.assign_seat(name)
+            else:
+                self.not_assigned.append(name)
+                print(f"No free spots available for {name}.")
+
+            table_index += 1
+            ```
 
 
 ## Good luck with using this program and enjoy organising your space
