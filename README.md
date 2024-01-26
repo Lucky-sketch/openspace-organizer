@@ -1,6 +1,6 @@
 # OpenSpace Organizer
 
-The OpenSpace Organizer is a program designed to help you efficiently organize people in an open space by assigning them to seats at different tables. The program allows for customization of the setup and provides options to import configurations from JSON files or manually input the number of tables and seats.
+The OpenSpace Organizer is a program designed to help you efficiently organize people in an open space by assigning them to seats at different tables. The program allows for customization of the setup and provides options to import configurations from JSON files or manually input the number of tables and seats. The program also create an excel file with all the information about open space organization that you may need to know. Program uses the algorithm that ensures that people are distributed equally among the tables, so everybody has a lot of fun:)
 
 ## Table of Contents
 
